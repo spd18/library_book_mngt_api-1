@@ -1,0 +1,62 @@
+Requirement for our project
+
+-> We are a book management company
+
+-> BOOKS
+-----------------
+attributes: - ISBN(id), title, publish_date, language, num_of_page, author[], category[]
+API: - 
+1. To get all the books from Database - done
+2. To get specific books based on ISBN - done
+3. To get the list of book based on categories, languages. - done
+
+-> Authors
+-----------------
+attributes: - id, name, books[]
+API: - 
+1. To get all the authors - done
+2. To get a specific author - done
+3. To get a list of authors based on books - done
+
+-> publication
+-----------------
+attributes: - id, name, books[]
+API: - 
+1. To get all the publication list - done
+2. To get specific publication based on their name - assign
+3. To get publication based on book they published. - assign
+
+
+================================================================================
+
+we have to design and code an API for book management system.
+
+06/08/2021
+--------------------------------------------------------------------------------------------
+
+Post Request
+
+1. Add new book - done
+2. Add new publication
+3. add new author
+
+assign: - post request use if else check for avail dataset if not then push it.
+
+07/08/2021
+--------------------------------------------------------------------------------------------
+
+PUT()
+1. update book details if author is change. //done
+
+DELETE()
+1. delete a book. - done
+2. delete author from book. - assign
+3. delete author from book and related book from author.
+
+
+
+12/08/2021
+--------------------------------------------------------------------------------------------
+
+update book on ISBN
+update author
